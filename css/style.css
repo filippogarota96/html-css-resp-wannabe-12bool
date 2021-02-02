@@ -3,16 +3,16 @@
   padding: 100px 0;
 }
 
- .debug [class*=col-] {
+ /* .debug [class*=col-] {
   border: none;
-}
+} */
 
 .debug .container {
   height: auto;
 }
 
 
-/* typo */
+
 .color {
   background-color: #F9F9F9;
 }
