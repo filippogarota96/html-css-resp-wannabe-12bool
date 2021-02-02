@@ -1,9 +1,9 @@
  h2 {
   text-align: center;
-  padding: 40px 0;
+  padding: 100px 0;
 }
 
- [class*=col-] {
+ .debug [class*=col-] {
   border: none;
 }
 
@@ -13,7 +13,12 @@
 
 
 /* typo */
-
+.color {
+  background-color: #F9F9F9;
+}
+.row [class*=col-] {
+  background-color: #F9F9F9;
+}
 .box {
   height: 100%;
   text-align: center;
@@ -25,4 +30,21 @@
 
 .box h3 {
   margin: 10px 0;
+}
+
+hr {
+  margin: 8px 0
+}
+
+.box p {
+  padding: 10px 0;
+}
+
+.image img {
+  background-color: blue;
+  padding: 20px;
+}
+
+.col-12 > h2 {
+  background-color: #fff;
 }
