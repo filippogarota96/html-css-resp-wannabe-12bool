@@ -3,9 +3,9 @@
   padding: 100px 0;
 }
 
- /* .debug [class*=col-] {
+ .debug [class*=col-] {
   border: none;
-} */
+}
 
 .debug .container {
   height: auto;
@@ -48,3 +48,5 @@ hr {
 .col-12 > h2 {
   background-color: #fff;
 }
+
+/* responsive */

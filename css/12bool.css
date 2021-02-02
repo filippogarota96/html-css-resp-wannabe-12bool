@@ -127,7 +127,7 @@
 
 /* responsive */
 
- @media screen and (max-width: 767px;) {
+ @media screen and (max-width: 767px) {
    .col-xs-1 {
      width: calc( (100% /12) *1);
    }
@@ -215,8 +215,8 @@
 
    .offset-xs-12 {
      margin-left: calc( (100% /12) *12);
- }
-
+   }
+}
 /* 768px a 991px */
 @media screen and (min-width: 768px) and (max-width: 991px){
   .col-md-1 {
@@ -305,6 +305,7 @@
 
   .offset-md-12 {
     margin-left: calc( (100% /12) *12);
+  }
 }
 /* da 992px */
 @media screen and (min-width: 992px) {
@@ -394,4 +395,5 @@
 
   .offset-lg-12 {
     margin-left: calc( (100% /12) *12);
+  }
 }
