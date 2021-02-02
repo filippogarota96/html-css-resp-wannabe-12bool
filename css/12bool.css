@@ -8,16 +8,17 @@
 
 /* framework */
 
+
 .debug .container {
-  background-color: pink;
-  height: 200px;
-  background-color: pink;
+  height: 300px;
 }
+
+
 .container {
   margin: 0 auto;
   max-width: 1170px;
-
 }
+
 
 .debug [class*=col-] {
   border: 1px solid #000;
@@ -31,8 +32,8 @@
 
 [class*=col-] {
   float: left;
-
 }
+
 
 .col-1 {
   width: calc( (100% /12) *1);
