@@ -1,14 +1,15 @@
  h2 {
   text-align: center;
-  margin: 40px 0;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
  [class*=col-] {
   border: none;
 }
 
-
+.debug .container {
+  height: auto;
+}
 
 
 /* typo */
@@ -19,7 +20,7 @@
   padding: 20px;
 }
 .box img {
-  height: 70%;
+  height: 180px;
 }
 
 .box h3 {
